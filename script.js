@@ -15,7 +15,7 @@ const generatePassword = (length, options) => {
     if (options.includeSpecialChars) characterSet += specialChars;
 
     if (characterSet === "") {
-        return "Pilih Salah Satu Dongg!";
+        return "PILIH SALAH SATU KRITERIA LUR!!";
     }
 
     // TODO: Generate the password based on the selected criteria
@@ -60,8 +60,8 @@ document.getElementById('copyBtn').addEventListener('click', () => {
         document.execCommand('copy'); // Copy the text
         document.body.removeChild(tempInput); // Remove the temporary input
 
-        alert('Password copied to clipboard!'); // Notify user
+        alert('Password copied to clipboard!'); 
     } else {
-        alert('Please generate a password first!'); // Notify user
+        alert('Please generate a password first!'); 
     }
 });

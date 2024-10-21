@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; 
+    background-color: #031758; 
 }
 
 .container {
@@ -46,7 +46,7 @@ input[type="checkbox"] {
 
 /*left button styles */
 button.left-button {
-    background-color: #4CAF50; 
+    background-color: #5a695b; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -59,7 +59,7 @@ button.left-button {
 
 /* Right button styles */
 button.right-button {
-    background-color: #4CAF50; 
+    background-color: #5a695b; 
     color: white;
     border: none;
     padding: 10px 20px;

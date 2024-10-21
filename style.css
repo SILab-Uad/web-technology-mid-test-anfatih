@@ -22,6 +22,55 @@ h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
     color: #4a4a4a; /* Header color */
+    text-align: center;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block; 
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Button container to align buttons left and right */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*left button styles */
+button.left-button {
+    background-color: #4CAF50; /* Green background for left button */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Right button styles */
+button.right-button {
+    background-color: #4CAF50; /* Orange background for right button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 10px;
 }
 
 /* Add more styles here as needed */
+button:hover {
+    opacity: 0,9;
+}
